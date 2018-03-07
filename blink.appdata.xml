@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.ag-projects.blink</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Blink</name>
+  <summary>Fully featured, easy to use SIP client</summary>
+
+  <description>
+    <p>
+      Features:
+      <ul>
+        <li>Audio calls (Opus, G.722, G.711, Speex, GSM, ilBC codecs)</li>
+        <li>Video calls (HD H.264)</li>
+        <li>Multiple SIP accounts</li>
+        <li>Google contacts integration</li>
+        <li>Acoustic Echo Cancellation (the one that really works)</li>
+        <li>Multiparty audio and chat conference</li>
+        <li>Chat sessions (MSRP)</li>
+        <li>File Transfers (MSRP)</li>
+        <li>Screen Sharing (VNC over MSRP)</li>
+        <li>SIMPLE Presence (XCAP and RLS)</li>
+        <li>Contacts management (XCAP)</li>
+        <li>Voicemail notifications</li>
+        <li>Call history</li>
+        <li>Redial and Hold</li>
+        <li>ICE NAT traversal</li>
+        <li>sRTP encryption</li>
+        <li>Bonjour neighbours (MDNS protocol)</li>
+        <li>SIP server discovery (DNS NAPTR, SRV, A records)</li>
+      </ul>
+    </p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window</caption>
+      <image>http://icanblink.com/screenshots/blink-linux/0-BlinkQTScreenshot-Contacts.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Incoming call alert</caption>
+      <image>http://icanblink.com/screenshots/blink-linux/BlinkQTScreenshot-AlertPanel.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Audio conference</caption>
+      <image>http://icanblink.com/screenshots/blink-linux/BlinkQTScreenshot-Conference.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">http://icanblink.com</url>
+</component>

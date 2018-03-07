@@ -7,3 +7,6 @@ ingredients:
   sources:
     - deb http://deb.debian.org/debian stretch main
     - deb http://ag-projects.com/debian stretch main
+
+script:
+  - wget -P usr/share/metainfo https://github.com/shvchk/blink-appimage/raw/master/blink.appdata.xml
