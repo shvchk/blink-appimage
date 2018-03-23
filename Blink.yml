@@ -3,10 +3,10 @@ binpatch: true
 
 ingredients:
   package: blink
-  dist: stretch
+  dist: trusty
   sources:
-    - deb http://deb.debian.org/debian stretch main
-    - deb http://ag-projects.com/debian stretch main
+    - deb http://archive.ubuntu.com/ubuntu trusty main universe
+    - deb http://ag-projects.com/ubuntu trusty main
 
 script:
   - wget -P usr/share/metainfo https://github.com/shvchk/blink-appimage/raw/master/blink.appdata.xml
